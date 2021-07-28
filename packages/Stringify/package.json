@@ -5,7 +5,7 @@
   "author": "imranfernansrk <imranfernansrk@gmail.com>",
   "homepage": "https://github.com/imranfernansrk/node-js-lerna-poc/tree/main/packages/Stringify#readme",
   "license": "ISC",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/imranfernansrk/node-js-lerna-poc.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "tsc": "tsc src/index.ts"
   },
   "bugs": {
     "url": "https://github.com/imranfernansrk/node-js-lerna-poc/issues"
