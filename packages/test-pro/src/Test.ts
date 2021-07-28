@@ -1,4 +1,7 @@
-import calc from "@smart-solve/calcify";
-import string from "@smart-solve/stringify";
+// import calc from "@smart-solve/calcify";
+import Stringify from "@smart-solve/stringify";
+console.log('out');
 
-console.log(calc(1, 2));
+const str = new Stringify();
+const upr = str.toUpper('imran');
+console.log(upr);
