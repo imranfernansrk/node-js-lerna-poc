@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^16.4.5",
+    "lerna": "^4.0.0",
+    "typescript": "^4.3.5"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "lerna run tsc",
+    "start": "lerna run start --scope=test-pro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranfernansrk/node-js-lerna-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imranfernansrk/node-js-lerna-poc/issues"
+  },
+  "homepage": "https://github.com/imranfernansrk/node-js-lerna-poc#readme",
+  "description": ""
+}
